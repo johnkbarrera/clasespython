@@ -19,6 +19,7 @@ git clone https://github.com/johnkevinbarrera/clasespython.git
 
 ## References
 
+```git
 def fibo(pos):
     if pos == 0:
         return(1)
@@ -30,7 +31,8 @@ def fibo(pos):
 print("ingrese posicion: ")
 n = int(input())
 print(fibo(n))
-
+```
+dgdfg
 
 
 
