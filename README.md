@@ -18,3 +18,19 @@ git clone https://github.com/johnkevinbarrera/clasespython.git
 ```
 
 ## References
+
+def fibo(pos):
+    if pos == 0:
+        return(1)
+    if pos == 1:
+        return(1)
+
+    return(fibo(pos-1) + fibo(pos-2))
+
+print("ingrese posicion: ")
+n = int(input())
+print(fibo(n))
+
+
+
+
