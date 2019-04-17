@@ -32,7 +32,23 @@ print("ingrese posicion: ")
 n = int(input())
 print(fibo(n))
 ```
-dgdfg
 
+```git
+def fibo(pos):
+    f1 = 1   # alejado una posicion de pos
+    f2 = 1   # alejado dos posicion de pos
+    if pos<=1:
+        return 1
+    help = 0
+    for i in range(1,pos):
+        help = f1 + f2
+        f2 = f1
+        f1 = help
+    return help
+
+print("ingrese posicion: ")
+n = int(input())
+print(fibo(n))
+```
 
 
