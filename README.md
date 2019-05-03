@@ -19,6 +19,11 @@ git clone https://github.com/johnkevinbarrera/clasespython.git
 
 ## References
 
+### Parte 1 
+    
+[Enlace Aquí](https://github.com/johnkevinbarrera/clasespython/blob/master/Parte%201.ipynb)
+
+
 ```git
 def fibo(pos):
     if pos == 0:
